@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
-	"github.com/sashabaranov/go-openai/jsonschema"
+	. "github.com/manishiitg/go-openai"
+	"github.com/manishiitg/go-openai/internal/test/checks"
+	"github.com/manishiitg/go-openai/jsonschema"
 )
 
 func TestChatCompletionsWrongModel(t *testing.T) {
